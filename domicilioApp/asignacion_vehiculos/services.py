@@ -1,4 +1,4 @@
-from asignacion_vehicles.models import Vehicle, Driver, AccountingRegistry
+from asignacion_vehiculos.models import Vehicle, Driver, AccountingRegistry
 
 
 def create_vehicle(registration_plate, brand, model, year, active):
