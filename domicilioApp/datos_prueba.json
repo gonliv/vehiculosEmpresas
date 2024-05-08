@@ -31,5 +31,71 @@
       "price": 20000.0,
       "vehicle": "ABC123"
     }
+  },
+  {
+    "model": "asignacion_vehiculos.vehicle",
+    "pk": 2,
+    "fields": {
+      "registration_plate": "DEF456",
+      "brand": "Nissan",
+      "model": "Sentra",
+      "year": "2021-01-01",
+      "active": true,
+      "created_at": "2024-05-07T00:00:00Z"
+    }
+  },
+  {
+    "model": "asignacion_vehiculos.driver",
+    "pk": 2,
+    "fields": {
+      "rut": "987654321",
+      "name": "Maria",
+      "last_name": "Lopez",
+      "active": true,
+      "created_at": "2024-05-07T00:00:00Z",
+      "vehicle": "DEF456"
+    }
+  },
+  {
+    "model": "asignacion_vehiculos.accountingregistry",
+    "pk": 2,
+    "fields": {
+      "date_of_purchase": "2021-05-02",
+      "price": 25000.0,
+      "vehicle": "DEF456"
+    }
+  },
+  {
+    "model": "asignacion_vehiculos.vehicle",
+    "pk": 3,
+    "fields": {
+      "registration_plate": "GHI789",
+      "brand": "Ford",
+      "model": "Focus",
+      "year": "2022-01-01",
+      "active": true,
+      "created_at": "2024-05-07T00:00:00Z"
+    }
+  },
+  {
+    "model": "asignacion_vehiculos.driver",
+    "pk": 3,
+    "fields": {
+      "rut": "112233445",
+      "name": "Carlos",
+      "last_name": "Sanchez",
+      "active": true,
+      "created_at": "2024-05-07T00:00:00Z",
+      "vehicle": "GHI789"
+    }
+  },
+  {
+    "model": "asignacion_vehiculos.accountingregistry",
+    "pk": 3,
+    "fields": {
+      "date_of_purchase": "2022-06-01",
+      "price": 23000.0,
+      "vehicle": "GHI789"
+    }
   }
 ]
