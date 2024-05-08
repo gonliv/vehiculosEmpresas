@@ -9,7 +9,7 @@ class Driver(models.Model):
     name = models.CharField(max_length=50, null=False, blank=False)
     last_name = models.CharField(max_length=50, null=False, blank=False)
     active = models.BooleanField(default=False)
-    created_at = models.DateTimeField(default=timezone.now)
+    created_at = models.DateTimeField(default=timezone.now, editable=False)
     vehicle = models.OneToOneField(
         "Vehicle",
         related_name="driver",
@@ -33,7 +33,7 @@ class Vehicle(models.Model):
     model = models.CharField(max_length=20, null=False, blank=False)
     year = models.DateField(null=False, blank=False)
     active = models.BooleanField(default=False)
-    created_at = models.DateTimeField(default=timezone.now)
+    created_at = models.DateTimeField(default=timezone.now, editable=False)
 
     def __str__(self):
         return self.registration_plate
