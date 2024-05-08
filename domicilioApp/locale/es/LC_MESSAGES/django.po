@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-08 03:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: asignacion_vehiculos/models.py:7
+msgid "RUT"
+msgstr "RUT"
+
+#: asignacion_vehiculos/models.py:8
+msgid "Name"
+msgstr "Nombre"
+
+#: asignacion_vehiculos/models.py:9
+msgid "Last name"
+msgstr "Apellido"
+
+#: asignacion_vehiculos/models.py:10 asignacion_vehiculos/models.py:34
+msgid "Active"
+msgstr "Activo"
+
+#: asignacion_vehiculos/models.py:11 asignacion_vehiculos/models.py:35
+msgid "Created at"
+msgstr "Creado el"
+
+#: asignacion_vehiculos/models.py:14 asignacion_vehiculos/models.py:41
+#: asignacion_vehiculos/models.py:50
+msgid "Vehicle"
+msgstr "Vehiculo"
+
+#: asignacion_vehiculos/models.py:25
+msgid "Driver"
+msgstr "Conductor"
+
+#: asignacion_vehiculos/models.py:26
+msgid "Drivers"
+msgstr "Conductores"
+
+#: asignacion_vehiculos/models.py:30
+msgid "Registration plate"
+msgstr "Patente"
+
+#: asignacion_vehiculos/models.py:31
+msgid "Brand"
+msgstr "Marca"
+
+#: asignacion_vehiculos/models.py:32
+msgid "Model"
+msgstr "Modelo"
+
+#: asignacion_vehiculos/models.py:33
+msgid "Year"
+msgstr "Año"
+
+#: asignacion_vehiculos/models.py:42
+msgid "Vehicles"
+msgstr "Vehiculos"
+
+#: asignacion_vehiculos/models.py:46
+msgid "Date of purchase"
+msgstr "Fecha de compra"
+
+#: asignacion_vehiculos/models.py:47
+msgid "Price"
+msgstr "Precio"
+
+#: asignacion_vehiculos/models.py:59
+msgid "Accounting Registry"
+msgstr "Registro contable"
+
+#: asignacion_vehiculos/models.py:60
+msgid "Accounting Registries"
+msgstr "Registros contables"
